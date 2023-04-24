@@ -1,6 +1,6 @@
 # Instructions to run code
 
-Download the [Voicevox Engine](https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.14.4) and add it to the project folder to be able to generate the voice for the AI.
+Download the [Voicevox Engine](https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.14.4) and add it to the project folder to be able to generate the voice for the AI. Also, should probably add a `voices` folder to the project folder...
 
 Add an env file to the project folder that contains:
 - `DISCORD_TOKEN` (discord API key)
@@ -23,4 +23,4 @@ Do this funny called **EXTRACT `fine_tuning.zip` !!!**
 CSV Files should have two columns, `prompt` and `completion`. Add the CSV file to the `raw_csv_files` from the extracted folder. Then add the file name to `fileName` in `cleanCSV.py`
 
 ## Actually Fine Tuning The Thing
-Run `fineTunesManager.py` and selected the necessary option :)
+Run `fineTunesManager.py` and select the necessary option :)
