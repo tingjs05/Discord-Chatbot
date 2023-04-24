@@ -16,7 +16,7 @@ USER = os.getenv("USER")
 ========================================== Edit Here =================================================================
 '''
 #Add your discord name here to user the bot
-authorizedUsers = ("XPG05#2294", "EJ64#2545", "Solnah#4238", "SilentDeathSong#4036", "powew · ~ ·#9768", "extrovan#1995")
+authorizedUsers = ("", )
 #Add a message here to tell users they are not allowed to talk to the bot
 sendoffMessage = ("No one was talking to you, go away!", "...", "Who are you?", "Don't speak to me, scum...")
 
