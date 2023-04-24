@@ -1,4 +1,4 @@
-# Instructions to run code
+# Instructions to Run Code
 
 Download the [Voicevox Engine](https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.14.4) and add it to the project folder to be able to generate the voice for the AI. Also, should probably add a `voices` folder to the project folder...
 
@@ -19,8 +19,8 @@ Do this funny called **EXTRACT `fine_tuning.zip` !!!**
 <br>
 (Btw everything here is kinda buggy, soooooo yes...)
 
-## Cleaning CSV Files
+### Cleaning CSV Files
 CSV Files should have two columns, `prompt` and `completion`. Add the CSV file to the `raw_csv_files` from the extracted folder. Then add the file name to `fileName` in `cleanCSV.py`
 
-## Actually Fine Tuning The Thing
+### Actually Fine Tuning The Thing
 Run `fineTunesManager.py` and select the necessary option :)
